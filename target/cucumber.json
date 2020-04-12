@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "creating contacts",
+        "description": "",
+        "id": "test-crm-application;creating-contacts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15151417200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches browser and open url",
+            "match": {
+              "location": "StepDefinitionClass.user_launches_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4678936599,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on Login button",
+            "match": {
+              "location": "StepDefinitionClass.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 749159900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters login credentials",
+            "match": {
+              "location": "StepDefinitionClass.user_enters_login_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1106425100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify user name appears on Home Page",
+            "match": {
+              "location": "StepDefinitionClass.verify_user_name_appears_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test CRM Application",
+    "description": "",
+    "id": "test-crm-application",
+    "keyword": "Feature",
+    "uri": "AllFeatures.feature"
+  }
+]
